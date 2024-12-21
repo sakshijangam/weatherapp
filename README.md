@@ -21,4 +21,3 @@ fetch("https://api.openweathermap.org/data/2.5/weather?lat=${latitude}lon=${long
 navigator.geolocation.getCurrentPosition((success) => {
         let {latitude, longitude} = success.coords;
         this is use to extract lan and lon whic is located coords-succes class
-d
